@@ -1,0 +1,56 @@
+
+*{
+    margin: 0%;
+}
+header{
+    background-color: black;
+    width:100%;
+    height: 100px;
+    color: white;
+    display: flex;
+}
+header div{
+    margin: 10px;
+}
+#aboutme{
+    background-color: rgb(235, 235, 235);
+    width:25%;
+    height: 800px;
+}   
+#AB1{
+    background-color: rgb(156, 156, 156);
+    margin: 20px;
+    padding: 50px; 
+}
+#AB2{
+    margin: 20px;
+}
+.i1{
+    margin-top: 10px;
+    background-color: rgb(156, 156, 156);
+    padding: 15px; 
+}
+section{
+    display: flex;
+}
+#t1{
+    background-color: rgb(156, 156, 156);
+    margin: 20px;
+    padding: 50px; 
+}
+#t1{
+    background-color: rgb(156, 156, 156);
+    margin: 20px;
+    padding: 50px; 
+}
+footer{           
+    background-color: rgb(210, 207, 207);
+    padding: 30px; 
+}
+#aboutme,#title{
+    padding: 10px;
+}
+#title{
+    width: 80%;
+}
+@media screen and (max-width:700px){header {flex-direction: column;}}
